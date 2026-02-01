@@ -200,7 +200,7 @@
    <rebind input="js1_slider1"/>
   </action>
   <action name="v_toggle_mining_laser_type">
-   <rebind input="js1_button17"/>
+   <rebind input="js1_hat1_right"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_salvage">

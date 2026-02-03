@@ -21,7 +21,7 @@ _See images at the end for help_
     - For JoyStick select your ```X52 H.O.T.A.S.```
 11. Go to <ins>Controls</ins> and select <ins>Joystick / HOTAS</ins>
     - In the <ins>Inversion Settings</ins> go to <ins>Mining</ins> and set the inversion of <ins>Mining Throttle</ins> to ```No``` _(relevant if you're doing mining with the joystick and dont want to have it inverted)_
-13. Enjoy your flight and let me know if you have any issues or any other feedback
+13. Enjoy your flight and let me know if you have any issues or any other feedback _(here or in [Spectrum](https://robertsspaceindustries.com/spectrum/community/SC/forum/50174/thread/x52-hotas-profile-for-star-citizen-v4-6-0))_
 
 <sub>Note: If not installed, you can find the HOTAS software here: https://support.logi.com/hc/en-us/articles/360024847013--Downloads-X52-Space-Flight-H-O-T-A-S</sub>
 
@@ -43,7 +43,7 @@ _See images at the end for help_
     - Wähle bei Joystick deinen ```X52 H.O.T.A.S.``` aus
 11. Gehe zu <ins>Steuerung</ins> und wähle <ins>Joystick / HOTAS</ins> aus
     - In den <ins>Invertierungseinstellungen</ins> unter <ins>Bergbau</ins> die Inverteriung von <ins>Abbau-Leistung</ins> auf ```Nein``` stellen _(relevant wenn du Bergbau mit dem Joystick betreibst und nicht den Schieberegler invertiert haben willst)_
-13. Viel Spaß beim Fliegen und lass mich wissen wenn du irgendwelche Probleme oder anderes Feedback hast
+13. Viel Spaß beim Fliegen und lass mich wissen wenn du irgendwelche Probleme oder anderes Feedback hast _(hier oder im [Spectrum](https://robertsspaceindustries.com/spectrum/community/SC/forum/50174/thread/x52-hotas-profile-for-star-citizen-v4-6-0))_
 
 <sub>Hinweis: Falls nicht installiert, hier ist die HOTAS-Software zu finden: https://support.logi.com/hc/de/articles/360024847013--Downloads-X52-Professional-Space-Flight-H-O-T-A-S</sub>
 
@@ -67,3 +67,5 @@ Select H.O.T.A.S.
 
 Set inversion
 > ![](Pictures/12_set_inversion.png)
+
+<br/>

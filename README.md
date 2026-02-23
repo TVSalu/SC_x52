@@ -9,9 +9,11 @@ _See images at the end for help_
 - Also, I did disable the mode selector (normally used as a switch between profiles) to be able to use it for the master mode.
 
 ### HowTo Install:
-1. Download XML from GitHub: [Xml-file](SC_4-6-0_Salu_x52.xml)
-    - Copy the XML into your StarCitizen folder under <ins>"\StarCitizen\LIVE\USER\Client\0\Controls\Mappings"</ins> (or PTU, etc)
-2. Download pr0-profile-file from GitHub: [pr0-file](SC_x52.pr0)
+1. Download StarCizien Keybinding XML from GitHub: [Xml-file](SC_4-6-0_Salu_x52.xml)\
+   Or for import with the "SC Launch Configurator" [Xml-file](SC_LIVE_4.6.0_joystick_bindings.xml)
+    - **Star Citizen (ingame):** Copy the XML into your StarCitizen folder under <ins>"\StarCitizen\LIVE\USER\Client\0\Controls\Mappings"</ins> (or PTU, etc).
+    - or **SC Launch Configurator:** Here you just have to import it in the the configurator.
+3. Download pr0-profile-file from GitHub: [pr0-file](SC_x52.pr0)
     - Copy the pr0-file into your profiles folder of your HOTAS-software under <ins>"C:\Users\Public\Documents\Logitech\X52"</ins>
 5. Load the profile into the software
     - Make sure your "X52_Profiler" _(<ins>"C:\Program Files\Logitech\X52\X52_Profiler.exe"</ins>)_ is run on startup so it runs with the start of windows and you dont have start it always manually
@@ -31,8 +33,10 @@ _See images at the end for help_
 - Für dieses Setup habe ich den "Pinkie" (kleiner Finger) als Modifikator genutzt um die Buttons mehrfach zu belegen. Als Taste des Modifiers habe ich die rechte Steuerungstaste verwendet (da die fast nie genutzt wird), der muss dann im Profil von der HOTAS-Software rein.
 - Außerdem habe ich die Funktion vom Mode-Switch ausgeschalten (mit dem man normalerweise zwischen den Profilen in der Software durchwechselt) um den für den Master-Mode nutzen zu können.
 ### HowTo Installieren:
-1. Lade die XML von GitHub herunter: [Xml-Datei](SC_4-6-0_Salu_x52.xml)
-    - Kopiere die XML in deinen Star Citizen-Ordner <ins>"StarCitizen\LIVE\USER\Client\0\Controls\Mappings"</ins> (oder PTU, etc)
+1. Lade die XML von GitHub herunter: [Xml-Datei](SC_4-6-0_Salu_x52.xml)\
+   Oder fürs importieren mit dem "SC Launch Configurator" [Xml-Datei](SC_LIVE_4.6.0_joystick_bindings.xml)
+    - **Star Citizen (im Spiel):** Kopiere die XML in deinen Star Citizen-Ordner <ins>"StarCitizen\LIVE\USER\Client\0\Controls\Mappings"</ins> (oder PTU, etc).
+    - oder **SC Launch Configurator:** Hier die Datei nur über den Configurator importieren.
 3. Lade die pr0-Profil-Datei von GitHub herunter: [pr0-Datei](SC_x52.pr0)
     - Kopiere die pr0-Datei in deinen Profile-Ordner der HOTAS-Software unter <ins>"C:\Users\Public\Documents\Logitech\X52"</ins>
 5. Lade das Profil in der Software

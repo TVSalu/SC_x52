@@ -1,0 +1,74 @@
+﻿[profile='Star Citizen' version=0x00000005
+  [controllers
+    [controller=e81d998b-c604-4d71-be97-35ca01439c7e group='Pro Flight'
+      [member=c7719f41-f667-4514-bbb4-3f38c9e4d05a name=X52 shortname=X52]
+      [controls
+        [button=0x00090001 name=Trigger]
+        [button=0x0009000F name='Second Trigger']
+        [button=0x00090002 name=Fire]
+        [button=0x00090003 name='Fire A']
+        [button=0x00090004 name='Fire B']
+        [button=0x00090005 name='Fire C']
+        [button=0x00090007 name='Fire D']
+        [button=0x00090008 name='Fire E']
+        [button=0x00090006 name='Pinkie Switch']
+        [button=0x00090009 name='Toggle 1']
+        [button=0x0009000A name='Toggle 2']
+        [button=0x0009000B name='Toggle 3']
+        [button=0x0009000C name='Toggle 4']
+        [button=0x0009000D name='Toggle 5']
+        [button=0x0009000E name='Toggle 6']
+        [button=0x0009001F name='Mouse Fire']
+        [button=0x00090020 name='Wheel Button']
+        [button=0x00090021 name='Wheel Scroll Down']
+        [button=0x00090022 name='Wheel Scroll Up']
+        [button=0x0009001E name='Clutch Button']
+        [slider=0x00090018 name=Mode
+          [button=0x00090018 name='Mode 1' latchable=false]
+          [button=0x00090019 name='Mode 2' latchable=false]
+          [button=0x0009001A name='Mode 3' latchable=false]]
+        [hat=0x00010039 name='POV Hat 1']
+        [hat=0x00090010 name='POV Hat 2' way=5]
+        [hat=0x00090014 name='POV Hat 3']
+        [axis=0x00010030 name='X Axis']
+        [axis=0x00010031 name='Y Axis']
+        [axis=0x00010035 name=Rudder]
+        [axis=0x00010032 name=Throttle]
+        [axis=0x00010033 name='Rotary 1']
+        [axis=0x00010034 name='Rotary 2']
+        [axis=0x00010036 name='Precision Slide']
+        [axis=0x00050024 name='Ministick X Axis']
+        [axis=0x00050026 name='Ministick Y Axis']]
+      [shifts
+        [shift=355328f2-7900-4bf6-9285-300238902d95 name='Mode 1'
+          [assignments
+            [button=0x00090006 role=bands
+              [bands
+                [band=1 command=918c69a5-4ac6-451e-b991-6dd733c516c2]]]
+            [button=0x0009001F
+              [bands
+                [band]
+                [band=1 command=7dc57d1d-436a-4cbd-b00c-2a6020b67c65]]]
+            [button=0x00090020
+              [bands
+                [band]
+                [band=1 command=d6d668ab-dc2b-4daf-af63-dfd98c234faa]]]
+            [button=0x00090021
+              [bands
+                [band]
+                [band=1 command=c84f0ec5-50bc-4f85-8a7c-818bd055255b]]]
+            [button=0x00090022
+              [bands
+                [band]
+                [band=1 command=fee538b8-6ba8-48ae-9a82-4c46bb3c1476]]]
+            [button=0x0009001E
+              [bands
+                [band=1 command=3524e2cb-a9d1-4c33-925d-b8d6282e6afa]]]
+            [axis=0x00050024 role=mouse-x
+              [mouse-x=15]]
+            [axis=0x00050026 role=mouse-y
+              [mouse-y=15]]]]]]]
+  [commands
+    [actioncommand=918c69a5-4ac6-451e-b991-6dd733c516c2 name=Modifier
+      [actionblock
+        [action device=keyboard usage=0x000000E4 page=0x00000007 value=0x00000001]]]]]

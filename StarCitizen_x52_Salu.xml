@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="x52_4-6-0">
- <CustomisationUIHeader label="x52_4-6-0" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="x52_Salu">
+ <CustomisationUIHeader label="x52_Salu" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -13,7 +13,6 @@
    <category label="@ui_CCFPS"/>
    <category label="@ui_CCVehicle"/>
    <category label="@ui_CGEASpectator"/>
-   <category label="@ui_CGUIGeneral"/>
    <category label="@ui_CGOpticalTracking"/>
    <category label="@ui_CGInteraction"/>
   </categories>
@@ -35,7 +34,7 @@
    <rebind input="kb1_backslash" activationMode="double_tap"/>
   </action>
   <action name="v_light_amplification_toggle">
-   <rebind input="js1_rctrl+button11"/>
+   <rebind input="js1_button10"/>
   </action>
   <action name="v_operator_mode_cycle_forward">
    <rebind input="js1_button32"/>
@@ -53,13 +52,22 @@
    <rebind input="kb1_lalt+apostrophe"/>
    <rebind input="js1_rctrl+button13"/>
   </action>
+  <action name="v_lock_all_ports">
+   <rebind input="kb1_ralt+apostrophe"/>
+  </action>
   <action name="v_open_all_doors">
    <rebind input="kb1_semicolon"/>
    <rebind input="js1_button14"/>
   </action>
+  <action name="v_toggle_all_portlocks">
+   <rebind input="js1_rctrl+button12"/>
+  </action>
   <action name="v_unlock_all_doors">
    <rebind input="kb1_lalt+semicolon"/>
    <rebind input="js1_rctrl+button14"/>
+  </action>
+  <action name="v_unlock_all_ports">
+   <rebind input="kb1_ralt+semicolon"/>
   </action>
  </actionmap>
  <actionmap name="vehicle_mfd">
@@ -87,7 +95,7 @@
    <rebind input="js1_rctrl+button3"/>
   </action>
   <action name="v_view_dynamic_zoom_abs">
-   <rebind input="js1_rotx"/>
+   <rebind input="js1_slider1"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_movement">
@@ -95,13 +103,13 @@
    <rebind input="js1_button7"/>
   </action>
   <action name="v_atc_loading_area_request">
-   <rebind input="js1_rctrl+button12"/>
+   <rebind input="js1_rctrl+button11"/>
   </action>
   <action name="v_atc_request">
-   <rebind input="js1_button12"/>
+   <rebind input="js1_button11"/>
   </action>
   <action name="v_autoland">
-   <rebind input="js1_button10"/>
+   <rebind input="js1_button30"/>
   </action>
   <action name="v_ifcs_speed_limiter_down">
    <rebind input="js1_button33"/>
@@ -111,9 +119,6 @@
   </action>
   <action name="v_ifcs_vector_decoupling_toggle">
    <rebind input="js1_button31"/>
-  </action>
-  <action name="v_master_mode_cycle_long">
-   <rebind input="js1_rctrl+button32"/>
   </action>
   <action name="v_master_mode_set_nav">
    <rebind input="js1_button25"/>
@@ -146,18 +151,18 @@
    <rebind input="js1_button1"/>
   </action>
   <action name="v_toggle_landing_system">
-   <rebind input="js1_button10"/>
+   <rebind input="js1_button30"/>
   </action>
   <action name="v_vtol_toggle">
-   <rebind input="js1_button9"/>
+   <rebind input="js1_rctrl+button30"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_docking">
   <action name="v_invoke_docking">
-   <rebind input="js1_button10"/>
+   <rebind input="js1_button30"/>
   </action>
   <action name="v_toggle_docking_mode">
-   <rebind input="js1_button10"/>
+   <rebind input="js1_button30"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_targeting">
@@ -197,7 +202,7 @@
    <rebind input="js1_hat1_up"/>
   </action>
   <action name="v_mining_throttle">
-   <rebind input="js1_slider1"/>
+   <rebind input="js1_rotx"/>
   </action>
   <action name="v_toggle_mining_laser_type">
    <rebind input="js1_hat1_right"/>
@@ -267,12 +272,12 @@
    <rebind input="js1_ " activationMode="press"/>
   </action>
   <action name="v_power_toggle_thrusters">
-   <rebind input="js1_rctrl+button10"/>
+   <rebind input="js1_button12"/>
   </action>
  </actionmap>
  <actionmap name="lights_controller">
   <action name="v_lights">
-   <rebind input="js1_button11"/>
+   <rebind input="js1_button9"/>
   </action>
  </actionmap>
  <actionmap name="player">
@@ -313,7 +318,7 @@
    <rebind input="js1_y"/>
   </action>
   <action name="v_view_dynamic_zoom_abs">
-   <rebind input="js1_rotx"/>
+   <rebind input="js1_slider1"/>
   </action>
  </actionmap>
  <actionmap name="spectator">
@@ -336,15 +341,18 @@
    <rebind input="js1_ "/>
   </action>
  </actionmap>
- <actionmap name="default">
-  <action name="notification_accept">
-   <rebind input="js1_button30"/>
-  </action>
-  <action name="notification_decline">
-   <rebind input="js1_rctrl+button30"/>
+ <actionmap name="player_emotes">
+  <action name="emote_salute">
+   <rebind input="kb1_ralt+f10"/>
   </action>
  </actionmap>
  <actionmap name="player_input_optical_tracking">
+  <action name="foip_pushtotalk">
+   <rebind input="kb1_mouse5"/>
+  </action>
+  <action name="foip_pushtotalk_proximity">
+   <rebind input="kb1_mouse4"/>
+  </action>
   <action name="foip_recalibrate">
    <rebind input="kb1_ "/>
   </action>

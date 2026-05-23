@@ -1,4 +1,4 @@
-# Logitech Saitek x52 HOTAS Profile for Star Citizen v4.6.0
+# Logitech Saitek x52 HOTAS Profile for Star Citizen
 
 _German description below / Deutsche Beschreibung unten_
 
